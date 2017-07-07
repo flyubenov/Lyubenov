@@ -14,7 +14,7 @@ namespace ContentConsole
     { 
         public static void Main(string[] args)
         {
-            string content = "The weather, in Manchester in winter is bad bad. It rains all the time - it must be horrible for people visiting.";
+            string content = "The weather, in Liverpool in winter is bad bad. It rains all the time - it must be horrible for people visiting.";
             bool skipFiltering = false;
             if (args.Length == 1)
                 content = args[0];
