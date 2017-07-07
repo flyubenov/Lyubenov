@@ -28,7 +28,7 @@ namespace ContentConsole
             BannedWordsProcessor wordProcessor = new BannedWordsProcessor();
             
 
-            Console.WriteLine("Scanned the text:");
+            Console.WriteLine("Scanned   the text:");
             Console.WriteLine(content);
             Console.WriteLine("Total Number of negative words: " + wordProcessor.CountBannedWords(content));
             wordProcessor.FilterOutNegativeWords(content, skipFiltering);
